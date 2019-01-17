@@ -116,7 +116,4 @@ for (let i = 0; i < inventory.length; i++) {
     currentCar === "BMW" || currentCar === "Audi" ? BMWAndAudi.push(inventory[i]) : null;
 }
 
-console.log(BMWAndAudi);
-
-
-
+console.log(JSON.stringify(BMWAndAudi));
